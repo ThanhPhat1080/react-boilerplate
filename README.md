@@ -11,7 +11,6 @@
 # Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  - [Screenshots](#camera-screenshots)
   - [Tech Stack](#space_invader-tech-stack)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
@@ -22,8 +21,6 @@
 ## :star2: About the Project
 
 - Improve building your faster React application by using TypeScript at first place and bootstrap by Vite.
-
-### :camera: Screenshots
 
 ### :space_invader: Tech Stacks
 
