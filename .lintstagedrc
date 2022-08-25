@@ -1,11 +1,11 @@
 {
   "*.{js,jsx,ts,tsx}": [
-    "prettier --write",
-    "eslint --fix",
+    "prettier",
+    "eslint",
     "jest --findRelatedTests --bail",
     "git add"
   ],
   "*.{html,css}": [
-    "prettier --write"
+    "prettier"
   ]
 }
