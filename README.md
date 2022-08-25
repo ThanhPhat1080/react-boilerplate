@@ -7,7 +7,6 @@
   <img src="https://user-images.githubusercontent.com/17384858/186645040-05c5ef03-37b5-4310-8da8-9b4964ed6495.gif" />
   </div>
 
-
 # Table of Contents
 
 - [About the Project](#star2-about-the-project)
@@ -18,7 +17,7 @@
 
 <!-- About the Project -->
 
-### :star2: About the Project
+#### :star2: About the Project
 
 - Improve building your faster React application by using TypeScript at first place and bootstrap by Vite.
 
@@ -34,7 +33,7 @@
 
 <!-- Getting Started -->
 
-## :toolbox: Getting Started
+### :toolbox: Getting Started
 
 <!-- Prerequisites -->
 
@@ -59,6 +58,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run lint:fix`      | Detect and fix code format error                      |
 
 ##### Noted:
+
 - You should grant permission to `.husky` if pre-commit not working on your local:
 
 ```bash
