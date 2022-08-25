@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Animals Component It should render correctly 1`] = `
+<div>
+  We have
+   
+  <span
+    aria-label="list animals"
+    role="img"
+  >
+    🐕 🦊 🐒 🦍 🦥 🦒
+  </span>
+</div>
+`;
