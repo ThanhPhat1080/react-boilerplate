@@ -1,11 +1,10 @@
 <div align="center">
-
   <h1>Simple React boilerplate</h1>
   <p>
     Very simple React app boilerplate built with Vite and TypeScript
   </p>
   <img src="https://user-images.githubusercontent.com/17384858/186645040-05c5ef03-37b5-4310-8da8-9b4964ed6495.gif" />
-  </div>
+</div>
 
 # Table of Contents
 
@@ -17,7 +16,7 @@
 
 <!-- About the Project -->
 
-#### :star2: About the Project
+### :star2: About the Project
 
 - Improve building your faster React application by using TypeScript at first place and bootstrap by Vite.
 
@@ -30,6 +29,7 @@
   - [React Router](https://reactrouter.com/): Declarative routing for React apps at any scale.
   - [Jest](https://jestjs.io/): Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
   - [React Testing Library](https://github.com/testing-library/react-testing-library): A powerful testing React library.
+  - [Storybook](https://storybook.js.org/): Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 
 <!-- Getting Started -->
 
@@ -46,16 +46,18 @@
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                 | Action                                                |
-| :---------------------- | :---------------------------------------------------- |
-| `npm install`           | Installs dependencies                                 |
-| `npm start`             | Starts local dev server at `localhost:3000`           |
-| `npm run build`         | Build your production site to `./dist/`               |
-| `npm run preview`       | Preview your build locally, before deploying          |
-| `npm run test`          | Testing your application                              |
-| `npm run test:coverage` | Testing your application and get Coverage report      |
-| `npm run lint`          | Detect code format error                              |
-| `npm run lint:fix`      | Detect and fix code format error                      |
+| Command                   | Action                                                |
+| :------------------------ | :---------------------------------------------------- |
+| `npm install`             | Installs dependencies                                 |
+| `npm start`               | Starts local dev server at `localhost:3000`           |
+| `npm run build`           | Build your production site to `./dist/`               |
+| `npm run preview`         | Preview your build locally, before deploying          |
+| `npm run storybook`       | Start Storybook dev at: `localhost: 6006`             |
+| `npm run build-storybook` | Build Storybook                                       |
+| `npm run test`            | Testing your application                              |
+| `npm run test:coverage`   | Testing your application and get Coverage report      |
+| `npm run lint`            | Detect code format error                              |
+| `npm run lint:fix`        | Detect and fix code format error                      |
 
 ##### Noted:
 
