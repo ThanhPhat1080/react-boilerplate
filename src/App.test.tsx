@@ -2,16 +2,13 @@
 import * as renderer from 'react-test-renderer';
 
 // Components
-import { BrowserRouter } from 'react-router-dom';
-import { HomePage } from '@Pages';
+import App from './App';
 
-describe('Testing HomePage', () => {
+describe('Testing App', () => {
   test('It should render correctly', () => {
     const component = renderer
       .create(
-        <BrowserRouter>
-          <HomePage />
-        </BrowserRouter>,
+          <App />
       )
       .toJSON();
     expect(component).toMatchSnapshot();

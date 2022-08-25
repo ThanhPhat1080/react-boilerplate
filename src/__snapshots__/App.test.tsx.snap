@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App It should render correctly 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <a
+      href="https://vitejs.dev"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Vite logo"
+        className="logo"
+      />
+    </a>
+    <a
+      href="https://reactjs.org"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="React logo"
+        className="logo react"
+      />
+    </a>
+    <a
+      href="https://www.typescriptlang.org/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="TS logo"
+        className="logo ts"
+      />
+    </a>
+  </div>
+  <div>
+    <h1>
+      You are at
+       
+      <span
+        aria-label="home"
+        role="img"
+      >
+        🏠
+      </span>
+    </h1>
+    <nav>
+      <a
+        href="/zoo"
+        onClick={[Function]}
+      >
+        Go to the Zoo
+         
+        <span
+          aria-label="tend"
+          role="img"
+        >
+          🎪
+        </span>
+      </a>
+    </nav>
+  </div>
+</div>
+`;

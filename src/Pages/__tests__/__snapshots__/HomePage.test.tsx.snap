@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing HomePage It should render correctly 1`] = `
+<div>
+  <h1>
+    You are at
+     
+    <span
+      aria-label="home"
+      role="img"
+    >
+      🏠
+    </span>
+  </h1>
+  <nav>
+    <a
+      href="/zoo"
+      onClick={[Function]}
+    >
+      Go to the Zoo
+       
+      <span
+        aria-label="tend"
+        role="img"
+      >
+        🎪
+      </span>
+    </a>
+  </nav>
+</div>
+`;
