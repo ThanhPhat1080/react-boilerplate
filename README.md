@@ -57,3 +57,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run test:coverage` | Testing your application and get Coverage report |
 | `npm run lint`          | Detect code format error                              |
 | `npm run lint:fix`      | Detect and fix code format error                      |
+
+##### Noted:
+- You should grant permission to `.husky` if pre-commit not working on your local:
+
+```bash
+$ chmod ug+x ./husky/*
+```
