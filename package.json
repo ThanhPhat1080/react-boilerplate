@@ -9,7 +9,7 @@
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "prepare": "husky install",
-    "pre-commit-lint": "npm run lint-staged",
+    "pre-commit-lint": "npx lint-staged",
     "test": "jest",
     "test:coverage": "jest -u -coverage"
   },
