@@ -18,7 +18,7 @@
 
 <!-- About the Project -->
 
-## :star2: About the Project
+### :star2: About the Project
 
 - Improve building your faster React application by using TypeScript at first place and bootstrap by Vite.
 
@@ -54,7 +54,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`         | Build your production site to `./dist/`               |
 | `npm run preview`       | Preview your build locally, before deploying          |
 | `npm run test`          | Testing your application                              |
-| `npm run test:coverage` | Testing your application and get Coverage report |
+| `npm run test:coverage` | Testing your application and get Coverage report      |
 | `npm run lint`          | Detect code format error                              |
 | `npm run lint:fix`      | Detect and fix code format error                      |
 
