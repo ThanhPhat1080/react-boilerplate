@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Zoo It should render correctly 1`] = `
+Array [
+  <h1>
+    Welcome to the Zoo !
+  </h1>,
+  <div>
+    We have
+     
+    <span
+      aria-label="list animals"
+      role="img"
+    >
+      🐕 🦊 🐒 🦍 🦥 🦒
+    </span>
+  </div>,
+  <nav>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Back to HomePage
+      <span
+        aria-label="home"
+        role="img"
+      >
+        🏠
+      </span>
+    </a>
+  </nav>,
+]
+`;

@@ -1,10 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,8 +9,11 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.logo.ts:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
 
-@keyframes logo-spin {
+@keyframes logo-rotate {
   from {
     transform: rotate(0deg);
   }
@@ -26,9 +22,35 @@
   }
 }
 
+@keyframes logo-scale {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: translateX(-3px);
+  }
+  to {
+    transform: translateX(3px);
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(1) .logo {
+    animation: logo-scale infinite 20s linear;
+  }
+
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-rotate infinite 10s linear;
+  }
+
+  a:nth-of-type(3) .logo {
+    animation: logo-spin infinite 10s linear;
   }
 }
 
