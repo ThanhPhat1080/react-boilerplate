@@ -1,4 +1,4 @@
-<div align="center">![demo]()
+<div align="center">
 
   <h1>Simple React boilerplate</h1>
   <p>
