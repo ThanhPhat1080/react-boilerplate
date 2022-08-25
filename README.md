@@ -1,9 +1,12 @@
-<div align="center">
+<div align="center">![demo]()
+
   <h1>Simple React boilerplate</h1>
   <p>
     Very simple React app boilerplate built with Vite and TypeScript
   </p>
+  <img src="https://user-images.githubusercontent.com/17384858/186645040-05c5ef03-37b5-4310-8da8-9b4964ed6495.gif" />
   </div>
+
 
 # Table of Contents
 
