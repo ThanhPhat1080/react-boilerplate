@@ -13,7 +13,7 @@
     "test": "jest",
     "test:coverage": "jest -u -coverage",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook && npx serve storybook-static -l 1234"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -61,6 +61,7 @@
     "prettier": "^2.7.1",
     "react-fast-compare": "^3.2.0",
     "react-test-renderer": "^18.2.0",
+    "serve": "^14.0.1",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.8.1",
     "typescript": "^4.6.4",
