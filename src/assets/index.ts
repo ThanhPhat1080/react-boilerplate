@@ -5,5 +5,5 @@ import VITE_ICON from './icons/vite.svg';
 export const ICONS = {
   REACT_ICON,
   TS_ICON,
-  VITE_ICON
-} 
+  VITE_ICON,
+};

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage, Zoo } from '@Pages';
 
 // Enums
-import {ROUTERS} from '@enums'
+import { ROUTERS } from '@enums';
 
 // Styles
 import './App.css';
