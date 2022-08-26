@@ -10,9 +10,15 @@ export default {
     '^@utils': '<rootDir>/src/utils',
     '^@assets': '<rootDir>/src/assets',
     '^.+\\.svg$': 'jest-svg-transformer',
-    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
   testMatch: ['<rootDir>/src/**/*.test.{tsx,ts}', '<rootDir>/src/**/__tests__/*.test.{tsx,ts}'],
   collectCoverage: false,
-  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '<rootDir>/src/**/__tests__/*.test.{tsx,ts}', '!src/**/*.d.ts'],
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx}',
+    '<rootDir>/src/**/__tests__/*.test.{tsx,ts}',
+    '!src/**/*.d.ts',
+    '!src/**/*.stories.{js,jsx,ts,tsx}',
+    '!src/enums/*.{ts}',
+  ],
 };

@@ -11,9 +11,9 @@
     "prepare": "husky install",
     "pre-commit-lint": "npx lint-staged",
     "test": "jest",
-    "test:coverage": "jest -u -coverage",
+    "test:coverage": "jest -u --coverage && npx serve coverage/lcov-report -l 3001",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook && npx serve storybook-static -l 1234"
+    "build-storybook": "build-storybook && npx serve storybook-static -l 6007"
   },
   "dependencies": {
     "react": "^18.2.0",
