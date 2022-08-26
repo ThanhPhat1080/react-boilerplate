@@ -12,7 +12,8 @@
   - [Tech Stack](#space_invader-tech-stack)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
-  - [Installation Commands](#gear-installation)
+  - [Installation Commands](#gear-installation-commands)
+- [Roadmap](#checkered_flag-roadmap)
 
 <!-- About the Project -->
 
@@ -66,3 +67,9 @@ All commands are run from the root of the project, from a terminal:
 ```bash
 $ chmod ug+x ./husky/*
 ```
+### :checkered_flag: Roadmap
+
+- [ ] [SWR](https://swr.vercel.app/): React Hooks for Data Fetching
+- [ ] Minimal state management using React hooks: `useReduce` and React Context API
+
+
